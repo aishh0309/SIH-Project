@@ -1,0 +1,19 @@
+{
+  "name": "sih-project",
+  "version": "1.0.0",
+  "description": "Smart india hackathon project ",
+  "main": "./backend/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aishh0309/SIH-Project.git"
+  },
+  "author": "SIH team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aishh0309/SIH-Project/issues"
+  },
+  "homepage": "https://github.com/aishh0309/SIH-Project#readme"
+}
