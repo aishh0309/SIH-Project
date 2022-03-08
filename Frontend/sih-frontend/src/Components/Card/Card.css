@@ -1,0 +1,14 @@
+.cards{
+    display: flex;
+    overflow-x: scroll;
+    position: relative;
+    margin: 50px 75px 0px 75px;
+    position: relative;
+    margin-bottom: 100px;
+}
+.product{
+    margin: 10px;
+    width: 300px;
+    height: 400px;
+    background-color: aqua;
+}

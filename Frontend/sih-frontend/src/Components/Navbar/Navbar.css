@@ -1,0 +1,24 @@
+.card{
+    width: 18rem;
+}
+
+.header{
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2b4743;
+    
+    /* flex-direction: column; */
+}
+.header_left,.header_right{
+    display: flex;
+    align-items: center;
+    margin: 24px;
+}
+.header_left>small,.header_right>small{
+    font-size: 26px;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
