@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/aishh0309/SIH-Project/issues"
   },
-  "homepage": "https://github.com/aishh0309/SIH-Project#readme"
+  "homepage": "https://github.com/aishh0309/SIH-Project#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
 }
