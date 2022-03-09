@@ -1,21 +1,22 @@
 import React from 'react'
 
 export const Profile = () => {
+      const gcolor = "#2b4743"
       return (
-        <div className="container mb-3">
+        <div className="container my-3">
             <div className="main-body">
               <div className="row">
                 <div className="col-lg-4">
                   <div className="card">
                     <div className="card-body">
                       <div className="d-flex flex-column align-items-center text-center">
-                        <img src="https://bootdey.com/img/Content/avatar/avatar6.png" alt="Admin" className="rounded-circle p-1 bg-primary" width={110} />
+                        <img src="https://bootdey.com/img/Content/avatar/avatar6.png" alt="Admin" className="rounded-circle p-1 " width={110} style={{backgroundColor: gcolor}}/>
                         <div className="mt-3">
                           <h4>John Doe</h4>
                           <p className="text-secondary mb-1">Alumni | 2018</p>
                           <p className="text-secondary mb-1">Full Stack Web Developer | Google</p>
                           <p className="text-muted font-size-sm">New Government Engineering College <br></br>Raipur</p>
-                          <button className="btn btn-primary">Follow</button>
+                          <button className="btn btn-secondary" style={{backgroundColor: gcolor}}>Follow</button>
                         </div>
                       </div>
                       <hr className="my-4" />
@@ -54,6 +55,14 @@ export const Profile = () => {
                         <div className="col-sm-9 text-secondary">
                           <input type="text" className="form-control" defaultValue="John Doe" />
                         </div>
+                      </div>  
+                      <div className="row mb-3">
+                        <div className="col-sm-3">
+                          <h6 className="mb-0">Gender</h6>
+                        </div>
+                        <div className="col-sm-9 text-secondary">
+                          <input type="text" className="form-control" defaultValue="Male" />
+                        </div>
                       </div>
                       <div className="row mb-3">
                         <div className="col-sm-3">
@@ -65,7 +74,7 @@ export const Profile = () => {
                       </div>
                       <div className="row mb-3">
                         <div className="col-sm-3">
-                          <h6 className="mb-0">Mobile No</h6>
+                          <h6 className="mb-0">Mobile No.</h6>
                         </div>
                         <div className="col-sm-9 text-secondary">
                           <input type="text" className="form-control" defaultValue="(239) 816-9029" />
@@ -77,6 +86,14 @@ export const Profile = () => {
                         </div>
                         <div className="col-sm-9 text-secondary">
                           <input type="text" className="form-control" defaultValue="ALUMNI" />
+                        </div>
+                      </div>
+                      <div className="row mb-3">
+                        <div className="col-sm-3">
+                          <h6 className="mb-0">Name of Institute</h6>
+                        </div>
+                        <div className="col-sm-9 text-secondary">
+                          <input type="text" className="form-control" defaultValue="New Government Engineering College, Raipur" />
                         </div>
                       </div>
                       <div className="row mb-3">
@@ -97,14 +114,6 @@ export const Profile = () => {
                       </div>
                       <div className="row mb-3">
                         <div className="col-sm-3">
-                          <h6 className="mb-0">Institute</h6>
-                        </div>
-                        <div className="col-sm-9 text-secondary">
-                          <input type="text" className="form-control" defaultValue="New Government Engineering College, Raipur" />
-                        </div>
-                      </div>
-                      <div className="row mb-3">
-                        <div className="col-sm-3">
                           <h6 className="mb-0">Trade</h6>
                         </div>
                         <div className="col-sm-9 text-secondary">
@@ -114,7 +123,7 @@ export const Profile = () => {
                       <div className="row">
                         <div className="col-sm-3" />
                         <div className="col-sm-9 text-secondary">
-                          <input type="button" className="btn btn-primary px-4" defaultValue="Save Changes" />
+                          <input type="button" className="btn btn-secondary  px-4" defaultValue="Save Changes" style={{backgroundColor: gcolor}} />
                         </div>
                       </div>
                     </div>
@@ -123,5 +132,6 @@ export const Profile = () => {
               </div>
             </div>
           </div>
+    
       );
     }
