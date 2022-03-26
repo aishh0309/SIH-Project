@@ -13,7 +13,6 @@ function App() {
       <Navbar/> 
       <Main/>
      <Card/>
-     <LoginRegister/>
     <hr  id='hr'/>
     
     <Footer/>

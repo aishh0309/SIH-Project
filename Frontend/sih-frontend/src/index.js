@@ -5,13 +5,24 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 // import "~bootstrap/scss/bootstrap";
 // import 'bootstrap/dist/css/bootstrap.min.css';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
+import Event from './Components/Events/Event'
+import GroupChat from './Components/Groupchat/GroupChat'
+import LoginSignup from './Components/LoginRegister/loginRegister'
 
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+   <BrowserRouter>
+    <Routes>
+        <Route path="/landed" element={<App />}></Route>
+        <Route path="/events" element={<Event />}></Route>
+        <Route path="/chat" element={<GroupChat />}></Route>
+        <Route path="/" element={<LoginSignup />}></Route>
+      </Routes>
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -14,6 +14,7 @@
     display: flex;
     align-items: center;
     margin: 24px;
+    text-decoration: none;
 }
 .header_left>small,.header_right>small{
     font-size: 26px;

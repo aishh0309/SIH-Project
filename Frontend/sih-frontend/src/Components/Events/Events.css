@@ -1,0 +1,18 @@
+.Events{
+    width: 80%;
+    margin: 30px auto auto auto ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.Events>h1{
+    margin-top: 50px;
+    font-size: 50px;
+    font-weight: bold;
+}
+.react-calendar{
+    background: #adb5bd;
+    width: 700px;
+}

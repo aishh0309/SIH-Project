@@ -1,13 +1,22 @@
-import React, { useState } from 'react';
+import React, { useState,useEffect } from 'react';
 import './loginRegister.css'
 import ReactCardFlip from 'react-card-flip';
 import CallIcon from '@mui/icons-material/PhoneCallback';
 import PassIcon from '@mui/icons-material/Lock';
+import axios from "axios";
 
 
 
 
 function LoginSignup() {
+
+    useEffect(() => {
+    axios.get("http://localhost:8000").then((res) => {
+    //   setProducts(res.data);
+      console.log("app >>>",res.data);
+    });
+  }, []);
+
 
     const [Flipped, setFlipped] = useState(false);
 

@@ -7,6 +7,11 @@ const UserRouter = require('./Routes/UserRoutes');
 const { notFound, errorHandler } = require('./middleware/errorMiddleware');
 const ChatRoutes = require('./Routes/ChatRoutes');
 const MessageRouter = require('./Routes/MessageRoute');
+const cors = require('cors')
+
+
+app.use(cors()); //This disables cors policy and allows to run both backend and frontend on the same device 
+
 
 connectdb();
 

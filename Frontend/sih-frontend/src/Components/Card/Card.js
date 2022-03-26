@@ -1,71 +1,32 @@
 import React from 'react'
 import './Card.css'
+import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
+import GChat from '../img/gchat.png'
+import Members from '../img/members.png'
+import { Link } from 'react-router-dom';
 
 function Card() {
   return (
    
     <div className="cards">
 
-    <div className="product">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM3ogaGKVT8cLbX_CbFrvRieN9yEG-riu85g&usqp=CAUhttps://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM3ogaGKVT8cLbX_CbFrvRieN9yEG-riu85g&usqp=CAU" alt="product" />
-      <h4> Group chat </h4>
-  </div>
+    
+  <Link to="/events">
   <div className="product">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM3ogaGKVT8cLbX_CbFrvRieN9yEG-riu85g&usqp=CAU" alt="product" />
+      {/* <CalendarMonthIcon fontSize="large"/> */}
+      <h4>Upcoming Events <CalendarMonthIcon fontSize="large"/></h4>
+      <img src="https://media.istockphoto.com/photos/chalkboard-and-colored-balloons-on-a-wooden-background-picture-id1263908025?b=1&k=20&m=1263908025&s=170667a&w=0&h=DDeDvtWSu99Z5yKrbx0X3M26uHGP1SCBV_-zXKS-FSQ="/>
+
+  </div></Link>
+  
+ <Link to="/chat">
+ <div className="product">
       <h4> Group chat </h4>
+      <img src={GChat}  id="gchat"  />
   </div>
-  <div className="product">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM3ogaGKVT8cLbX_CbFrvRieN9yEG-riu85g&usqp=CAU" alt="product" />
-      <h4> Group chat </h4>
-  </div>
-  <div className="product">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM3ogaGKVT8cLbX_CbFrvRieN9yEG-riu85g&usqp=CAU" alt="product" />
-      <h4> Group chat </h4>
-  </div>
-  <div className="product">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM3ogaGKVT8cLbX_CbFrvRieN9yEG-riu85g&usqp=CAU" alt="product" />
-      <h4> Group chat </h4>
-  </div>
-  <div className="product">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM3ogaGKVT8cLbX_CbFrvRieN9yEG-riu85g&usqp=CAU" alt="product" />
-      <h4> Group chat </h4>
-  </div>
-  <div className="product">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM3ogaGKVT8cLbX_CbFrvRieN9yEG-riu85g&usqp=CAU" alt="product" />
-      <h4> Group chat </h4>
-  </div>
-  <div className="product">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM3ogaGKVT8cLbX_CbFrvRieN9yEG-riu85g&usqp=CAU" alt="product" />
-      <h4> Group chat </h4>
-  </div>
-  <div className="product">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM3ogaGKVT8cLbX_CbFrvRieN9yEG-riu85g&usqp=CAU" alt="product" />
-      <h4> Group chat </h4>
-  </div>
-  <div className="product">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM3ogaGKVT8cLbX_CbFrvRieN9yEG-riu85g&usqp=CAU" alt="product" />
-      <h4> Group chat </h4>
-  </div>
-  <div className="product">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM3ogaGKVT8cLbX_CbFrvRieN9yEG-riu85g&usqp=CAU" alt="product" />
-      <h4> Group chat </h4>
-  </div>
-  <div className="product">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM3ogaGKVT8cLbX_CbFrvRieN9yEG-riu85g&usqp=CAU" alt="product" />
-      <h4> Group chat </h4>
-  </div>
-  <div className="product">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM3ogaGKVT8cLbX_CbFrvRieN9yEG-riu85g&usqp=CAU" alt="product" />
-      <h4> Group chat </h4>
-  </div>
-  <div className="product">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM3ogaGKVT8cLbX_CbFrvRieN9yEG-riu85g&usqp=CAU" alt="product" />
-      <h4> Group chat </h4>
-  </div>
-  <div className="product">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM3ogaGKVT8cLbX_CbFrvRieN9yEG-riu85g&usqp=CAU" alt="product" />
-      <h4> Group chat </h4>
-  </div>
+ </Link>
+ 
+ 
   
   
 </div>
